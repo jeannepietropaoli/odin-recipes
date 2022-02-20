@@ -10,10 +10,18 @@
     background-color:rgb(194, 240, 240);
 }
 
-#banniere {
-    width: 1900px;
-    height: auto;
+body {
+    width: 750px;
+    margin: auto;
 }
+
+#banniere {
+    display: inline-block;
+   width:750px;
+   height: auto;
+    margin: 0px 0px 20px 0px
+}
+
 
 h1 {
     text-align: center;
@@ -22,10 +30,6 @@ h1 {
     background-color: aquamarine;
 }
 
-img {
-    height: 600px;
-    width: auto;
-}
 
 .liste_ingredients {
     background-color: rgb(214, 214, 194);
@@ -50,3 +54,10 @@ li{
 .test{
     background-color: green;
 }
+
+.illustration {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 200px;   
+    }
