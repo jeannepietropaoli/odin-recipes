@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: Alex Brush;
+    src: AlexBrush.txt;
+    font-weight: italic;
+}
+
 *{
     font-family: 'Courier New', Courier, monospace;
     background-color:rgb(194, 240, 240);
@@ -11,7 +18,7 @@
 h1 {
     text-align: center;
     font-weight: bold;
-    font-family: "Trebuchet MS";
+    font-family: "Alex Brush";
     background-color: aquamarine;
 }
 
@@ -26,4 +33,20 @@ img {
 
 .highlight{
     background-color: rgb(255, 191, 0);
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+#debug{
+    background-color: red;
+}
+
+li{
+    background-color: yellow;
+}
+
+.test{
+    background-color: green;
 }
